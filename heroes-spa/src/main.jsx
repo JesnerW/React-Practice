@@ -6,9 +6,9 @@ import { HeroesApp } from "./HeroesApp.jsx";
 import "./style.css";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <StrictMode>
+  <StrictMode>
+    <BrowserRouter>
       <HeroesApp />
-    </StrictMode>
-  </BrowserRouter>
+    </BrowserRouter>
+  </StrictMode>
 );
